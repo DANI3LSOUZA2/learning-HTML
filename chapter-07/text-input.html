@@ -1,0 +1,32 @@
+<!--ENTRADA DE TEXTO-->
+<!--Input: usado para criar vários controles de formulários diferentes-->
+<!--ATRIBUTOS-->
+    <!--type: O valor do atributo type determina o tipo de entrada que será criada(exemplo: type:"text"-->
+
+    <!--size: O atributo size não deve ser usado em formulários novos. Ele será usado em formulários mais antigos
+              para indicar a largura da entrada de texto(medida pelo número de caracteres que seriam visualizados
+              por exemplo, o valor 3 criaria uma caixa suficientemente grande para exibir três caracteres
+            
+          **Você deve usar CSS para controlar a largura dos elementos de formulário ao escrever um novo formulário**-->
+
+    <!--name: O servidor precisa saber em qual controle de formulário as informações foram inseridas. (O SERVIDOR PRECISA
+              SABER SE FOI UM NOME DE USUÁRIO OU SENHA, POR EXEMPLO) 
+              O valor desse atributo identifica o controle de formulário e é enviado junto com as informações inseridas para o servidor-->
+
+    <!--maxlength: Usado para limitar o número de caracteres que podem ser inseridos no campo de texto-->
+
+
+<html>
+
+    <head>
+        <title>text-input</title>
+    </head>
+
+    <body>
+        <form action="https://www.example.com/subscribe.php">
+            <p>Username:
+                <input type="text" name="username" size="15" maxlength="30" />
+            </p>
+        </form>
+    </body>
+</html>

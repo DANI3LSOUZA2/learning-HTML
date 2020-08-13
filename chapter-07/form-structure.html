@@ -1,0 +1,25 @@
+<!--Estrutura do formulário-->
+
+<!--O comando "form" deve receber o atributo "action", e geralmente um atributo method e id-->
+<!--Action: Seu value é o URL da página do servidor que receberá as informações do formulário quando este for enviado-->
+<!--method: Formulários podem ser enviados utilizando get ou post-->
+<!--get: ideal para: * Formulários curtos
+                     * Recuperar dados do servidor web
+                       -->
+<!--post: Deve usar para: * Permitir que os usuários enviem um arquivo
+                          * For muito longo
+                          * Contiver dados sigilosos(por exemplo, senhas)
+                          * Adicionar ou excluir informações de um banco de dados
+                            -->
+<!--id: usado para identificar o formulário de uma maneira distinta de outros elementos na página-->
+
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form action="https://www.example.com/subscribe.php" method="GET">
+            <p>This is where the form controls will appear.</p>
+        </form>
+    </body>
+</html>
