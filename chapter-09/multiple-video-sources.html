@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Múltiplas fontes de vídeo -->
+
+<html>
+    <head>
+        <title>Multiple Video Sources</title>
+    </head>
+    <body>
+        <video 
+            poster="fotos/puppy.jpg"
+            width="400" height="320"
+            preload="auto"
+            controls
+            loop>
+            <source 
+                src="videos/puppy.mp4"
+                type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'
+            />
+            <source 
+                src="videos/puppy.webm"
+                type='video/webm;codecs="vp8, vorbis"'
+            />
+            <p>A video of a puppy playing in the snow</p>
+        </video>
+    </body>
+</html>
