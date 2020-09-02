@@ -1,0 +1,12 @@
+/* Color name */
+h1 {
+    color: darkcyan;
+}
+/* HEX code */
+h2 {
+    color: #ee3e80;
+}
+/* RGB value */
+p {
+    color: rgb(100, 100, 90);
+}
