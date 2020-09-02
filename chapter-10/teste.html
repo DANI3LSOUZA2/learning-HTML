@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro simples</title>
+    <style>
+        body {
+            background-color: white;
+            height: 100vh;
+        }
+        div.content {
+            background-color: rgba(95, 93, 93, 0.8);
+            margin: 0 auto;
+            padding: 10px;
+            width: 500px;
+            min-height:300px;
+            box-shadow: 5px 5px 5px rgb(66, 68, 59);
+            border-radius: 8px;
+        }
+        body h1#tit {
+            text-align: center;
+            padding: 10px;
+            margin: 30px 0 20px 0;
+            margin-left: 18px;
+            font-size: 30pt;
+            color: rgb(8, 8, 8);
+            font-family: Arial, Verdana, sans-serif;
+        }
+        form {
+            text-align: center;
+        }
+        input.mod {
+            width: 350px;
+            height: 25px;
+            border-radius: 5px;
+            border: 1px solid rgb(116, 113, 113);   
+            box-shadow: 2px 2px 5px rgb(66, 68, 59);
+        }
+        fieldset{
+            width: 100px;
+            margin-left: 183px;
+        } 
+        textarea {
+            margin-left: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(117, 115, 115);
+            box-shadow: 2px 2px 5px rgb(66, 68, 59);
+        } 
+        input.btn {
+            padding: 5px;
+        }
+        #masc{
+            margin-left: 0px;
+            color: white;
+        }
+        #fem {
+            margin-left: -3px;
+            color: white;
+        }
+        #color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<div id="full">
+    <h1 id="tit">Formulário</h1>
+        <div class="content">
+                <form action="04cadas.php" method="get">
+
+                    <p><input class="mod" type="text" name="name" id="name" placeholder="Nome"></p>
+
+                    <p><input class="mod" type="email" name="email" placeholder="E-mail"></p>
+
+                    <p><input class="mod" type="number" name="ano" id="ano" placeholder="Ano de nascimento"></p>
+
+                    <p><fieldset><legend id="color">Sexo</legend>
+                        <input type="radio" name="sexo" id="masc" checked value="Homem"><label for="masc" id="masc">Masculino</label>
+                        <input type="radio" name="sexo" id="fem" value="Mulher"><label for="fem" id="fem">Feminino</label>
+
+                    </fieldset></p> 
+
+                    <p><textarea name="msg" cols="50" rows="5" placeholder="Deixe um comentário aqui"></textarea></p>
+
+                    <input class="btn" type="submit" value="Enviar">
+                </form>
+        </div>
+</div>
+</body>
+</html>
