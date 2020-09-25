@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+li.coming-soon {
+    visibility: hidden;
+}
