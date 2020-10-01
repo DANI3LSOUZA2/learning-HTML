@@ -1,0 +1,11 @@
+body {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+ul {
+    list-style: inside circle;
+    width: 220px;
+}
+li {
+    margin-top: 10px;
+}
