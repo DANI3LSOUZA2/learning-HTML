@@ -1,0 +1,11 @@
+td {
+    border: 2px solid #000000;
+    background-color: #0088dd;
+    padding: 15px;
+}
+table.one {
+    border-spacing: 5px 15px;
+}
+table.two {
+    border-collapse: collapse;
+}
